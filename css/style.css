@@ -4,16 +4,42 @@ html {
 
 body {
     height: 100%;
+    background-color:red; 
     
 }
 a {
     text-decoration: none;
 }
 
-.main {
-    height: 100%;
+.about-image{
+    height:100px;
+    width:100px;
 }
-.social-image{
-    width: 30px;
-    margin: 15px;
+
+.chris-brown {
+    display:flex;
+    justify-content:space-around;
+    
+}
+.container {
+    display:flex;
+}
+.menu{
+    width:30%;
+    
+}
+.main {
+    width:70%;
+}
+.navbar {
+    display:flex;
+    justify-content:space-between;
+}
+.thumbnail img{
+    height:100px;
+    width:200px;
+}
+.gallery {
+    display:flex;
+    flex-wrap:wrap;
 }
