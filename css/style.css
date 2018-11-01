@@ -4,21 +4,24 @@ html {
 
 body {
     height: 100%;
-    background-color:red; 
-    
+    background-color:#33747c; 
+    font-family: 'Dancing Script', cursive;
 }
 a {
     text-decoration: none;
+    color:black;
 }
 
 .about-image{
-    height:100px;
-    width:100px;
+    height:200px;
+    width:300px;
+    padding:20 30 40 50 ;
 }
 
 .chris-brown {
     display:flex;
     justify-content:space-around;
+    
     
 }
 .container {
@@ -29,7 +32,7 @@ a {
     
 }
 .main {
-    width:70%;
+    width:20%;
 }
 .navbar {
     display:flex;
@@ -41,5 +44,9 @@ a {
 }
 .gallery {
     display:flex;
-    flex-wrap:wrap;
+    flex-wrap:wrap
+    ;
+}
+.header {
+    text-align: center;
 }
